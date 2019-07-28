@@ -1,0 +1,49 @@
+body, html{
+    background-color: #9ea7aa;
+    color: black;
+}
+#welcome-section{
+    background-image: linear-gradient(to bottom right, #37474f, #62727b);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 1.8em;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+#navbar{
+    background-color: #bc477b;
+    font-size: 1.8em;
+    color: white;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+}
+@media screen and (max-width: 900px) {
+    #navbar{
+        flex-direction: column;
+    }
+}
